@@ -1,0 +1,62 @@
+body {
+    font: 100%/1.5 system-ui, sans-serif;
+    display: flex;
+    flex-flow: column;
+    max-width: 80em;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 1em;
+  }
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+h1 {
+  margin: 0;
+}
+
+header label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 40%;
+  font-size: 0.9em;
+  position: relative;
+  justify-content: flex-end;
+}
+
+header label > span {
+  margin-right: 1em;
+  white-space: nowrap;
+}
+
+.slider-container {
+  position: relative;
+  flex: 1;
+  max-width: 250px;
+}
+
+#time-slider {
+  width: 100%;
+  margin: 0.5em 0;
+}
+
+#selected-time, #any-time {
+  position: absolute;
+  bottom: -1.2em;
+  right: 0;
+  text-align: right;
+  min-height: 1.2em;
+  font-size: 0.85em;
+}
+
+#any-time {
+  color: #777;
+  font-style: italic;
+}
