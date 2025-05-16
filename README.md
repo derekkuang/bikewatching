@@ -10,7 +10,7 @@ This project visualizes bike traffic from the Bluebikes bike-sharing system in B
 - **Circle color** indicates whether a station has more departures (blue), more arrivals (orange), or balanced traffic (purple)
 - **Time slider** allows filtering traffic data to see patterns at different times of day
 
-## Features
+<!-- ## Features
 
 - Interactive map with bike lanes from both Boston and Cambridge
 - Dynamic visualization of over 260,000 bike trips from March 2024
@@ -51,4 +51,4 @@ This project visualizes bike traffic from the Bluebikes bike-sharing system in B
 
 ## License
 
-This project is for educational purposes, using publicly available data from Bluebikes and municipal open data portals. 
+This project is for educational purposes, using publicly available data from Bluebikes and municipal open data portals.  -->
